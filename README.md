@@ -1,4 +1,4 @@
-# Is477 Fall2023 Final Project
+# IS477 Fall2023 Final Project
 
 IS477-Fall2023 final project repository.
 
@@ -9,6 +9,10 @@ IS477-Fall2023 final project repository.
 
 ## Overview:
 
+This IS447 Fall2023 Final Project centered on applying the knowledge and skills acquired in IS477: Data Management, Curation, and Reproducibility, involves a comprehensive exploration and application of data handling and analysis techniques. Our project specifically focuses on the Wine Quality dataset obtained from the UCI Machine Learning Repository. This rich dataset, comprising two parts - 'winequality-white.csv' and 'winequality-red.csv', is merged into a single CSV file with an additional binary column indicating wine color.
+
+Our project involves extensive data profiling using ydata-profiling, resulting in a comprehensive report ('profiling/report.html'). The data analysis section of the project is developing and evaluating a linear regression model. We divide the dataset into training and testing sets, using the former to build the model. Its performance is assessed against the testing set, with results like mean, standard deviation, count, minimum and maximum values,mean squared error, root mean squared error, and R-squared values documented in 'results/summary_stats_and_regression_result.md'. A graph is also written into the result/plot.png to visually compare the actual and predicted values, which represents the model's accuracy. This project exemplifies the practical application of data analysis and management skills in a real-world dataset.
+
 ## Contributions:
 
 - Jacquelin: Complete Step 6, 7, 8, 10, 14(a,b,c,f), 15, 16, 17, and 18
@@ -16,7 +20,7 @@ IS477-Fall2023 final project repository.
 
 ## Analysis:
 
-We firstly made a directory "./result" in the repositary to store the output of the analysis.py. By reading the file winequality.csv into a dataframe, we are able to classify the numpy arrays of target variable and the feature variables. Later, we split the data into training data and testing data. By using the training data, we are able to utilize it to fit the Linear Regression model. We calculated that the Mean Squared Error, Root Mean Squared Error, and R-squared, and we exported them as a text file and stored in the result file. Finally, we created a plot graph, exported it as a plot.png file, and stored it in the result file.
+We firstly made a directory "./result" in the repositary to store the output of the analysis.py. By reading the file winequality.csv into a dataframe, we are able to classify the numpy arrays of target variable and the feature variables. Later, we split the data into training data and testing data. By using the training data, we are able to utilize it to fit the Linear Regression model. We calculated that the summary statistics, Mean Squared Error, Root Mean Squared Error, and R-squared, and we exported them as a text file and stored in the result file. Finally, we created a plot graph, exported it as a plot.png file, and stored it in the result file.
 
 ## Workflow:
 
