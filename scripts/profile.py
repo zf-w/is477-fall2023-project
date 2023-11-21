@@ -1,10 +1,9 @@
-import numpy as np
 import os
 import pandas as pd
 from ydata_profiling import ProfileReport
 
-df_red = pd.read_csv('data/winequality-red.csv')
-df_wht =  pd.read_csv('data/winequality-white.csv')
+df_red = pd.read_csv('data/winequality-red.csv', sep=';')
+df_wht =  pd.read_csv('data/winequality-white.csv', sep=';')
 
 df = pd.concat([df_red, df_wht])
 
