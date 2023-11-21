@@ -11,10 +11,11 @@ IS477-Fall2023 final project repository.
 
 ## Contributions:
 
-- Jacquelin: Complete Step 6, 7, 8, 10, 14(a,b,f), 15, 16, 17, and 18
-- Zhifeng: Complete Step 1, 2, 3, 4, 5, 9, 11, 12 13, 14(c,d,e,g), profreed, and Step 19 (submission)
+- Jacquelin: Complete Step 6, 7, 8, 10, 14(a,b,c,f), 15, 16, 17, and 18
+- Zhifeng: Complete Step 1, 2, 3, 4, 5, 9, 11, 12 13, 14(d,e,g), profreed, and Step 19 (submission)
 
 ## Analysis:
+We firstly made a directory "./result" in the repositary to store the output of the analysis.py. By reading the file winequality.csv into a dataframe, we are able to classify the numpy arrays of target variable and the feature variables. Later, we split the data into training data and testing data. By using the training data, we are able to utilize it to fit the Linear Regression model. We calculated that the Mean Squared Error, Root Mean Squared Error, and R-squared, and we exported them as a text file and stored in the result file. Finally, we created a plot graph, exported it as a plot.png file, and stored it in the result file.
 
 ## Workflow:
 
