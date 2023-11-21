@@ -21,8 +21,8 @@
 <!-- data/winequality.csv&#45;&gt;analyze -->
 <g id="edge2" class="edge">
 <title>data/winequality.csv-&gt;analyze</title>
-<path fill="none" stroke="#000000" d="M388.4926,-143.8314C384.405,-135.8771 379.5189,-126.369 374.9984,-117.5723"/>
-<polygon fill="#000000" stroke="#000000" points="377.9754,-115.7078 370.2917,-108.4133 371.7494,-118.9074 377.9754,-115.7078"/>
+<path fill="none" stroke="#df00e0" d="M388.4926,-143.8314C384.405,-135.8771 379.5189,-126.369 374.9984,-117.5723"/>
+<polygon fill="#df00e0" stroke="#df00e0" points="377.9754,-115.7078 370.2917,-108.4133 371.7494,-118.9074 377.9754,-115.7078"/>
 </g>
 <!-- profile -->
 <g id="node7" class="node">
@@ -36,8 +36,8 @@
 <!-- data/winequality.csv&#45;&gt;profile -->
 <g id="edge1" class="edge">
 <title>data/winequality.csv-&gt;profile</title>
-<path fill="none" stroke="#000000" d="M414.7362,-143.8314C422.6106,-135.3694 432.1213,-125.1489 440.7306,-115.8971"/>
-<polygon fill="#000000" stroke="#000000" points="443.4446,-118.1183 447.6947,-108.4133 438.3201,-113.3497 443.4446,-118.1183"/>
+<path fill="none" stroke="#df00e0" d="M414.7362,-143.8314C422.6106,-135.3694 432.1213,-125.1489 440.7306,-115.8971"/>
+<polygon fill="#df00e0" stroke="#df00e0" points="443.4446,-118.1183 447.6947,-108.4133 438.3201,-113.3497 443.4446,-118.1183"/>
 </g>
 <!-- profiling/report.html -->
 <g id="node2" class="node">
@@ -69,26 +69,26 @@
 <!-- prepare&#45;&gt;data/winequality.csv -->
 <g id="edge3" class="edge">
 <title>prepare-&gt;data/winequality.csv</title>
-<path fill="none" stroke="#000000" d="M397.8293,-215.8314C397.8293,-208.131 397.8293,-198.9743 397.8293,-190.4166"/>
-<polygon fill="#000000" stroke="#000000" points="401.3294,-190.4132 397.8293,-180.4133 394.3294,-190.4133 401.3294,-190.4132"/>
+<path fill="none" stroke="#df00e0" d="M397.8293,-215.8314C397.8293,-208.131 397.8293,-198.9743 397.8293,-190.4166"/>
+<polygon fill="#df00e0" stroke="#df00e0" points="401.3294,-190.4132 397.8293,-180.4133 394.3294,-190.4133 401.3294,-190.4132"/>
 </g>
 <!-- analyze&#45;&gt;results/summary_stats_and_regression_result.md -->
 <g id="edge5" class="edge">
 <title>analyze-&gt;results/summary_stats_and_regression_result.md</title>
-<path fill="none" stroke="#000000" d="M331.3853,-80.1397C300.083,-69.657 249.6233,-52.7589 209.2204,-39.2287"/>
-<polygon fill="#000000" stroke="#000000" points="210.3061,-35.9012 199.7122,-36.0445 208.0832,-42.5389 210.3061,-35.9012"/>
+<path fill="none" stroke="#df00e0" d="M331.3853,-80.1397C300.083,-69.657 249.6233,-52.7589 209.2204,-39.2287"/>
+<polygon fill="#df00e0" stroke="#df00e0" points="210.3061,-35.9012 199.7122,-36.0445 208.0832,-42.5389 210.3061,-35.9012"/>
 </g>
 <!-- analyze&#45;&gt;results/plot.png -->
 <g id="edge6" class="edge">
 <title>analyze-&gt;results/plot.png</title>
-<path fill="none" stroke="#000000" d="M360.8293,-71.8314C360.8293,-64.131 360.8293,-54.9743 360.8293,-46.4166"/>
-<polygon fill="#000000" stroke="#000000" points="364.3294,-46.4132 360.8293,-36.4133 357.3294,-46.4133 364.3294,-46.4132"/>
+<path fill="none" stroke="#df00e0" d="M360.8293,-71.8314C360.8293,-64.131 360.8293,-54.9743 360.8293,-46.4166"/>
+<polygon fill="#df00e0" stroke="#df00e0" points="364.3294,-46.4132 360.8293,-36.4133 357.3294,-46.4133 364.3294,-46.4132"/>
 </g>
 <!-- profile&#45;&gt;profiling/report.html -->
 <g id="edge4" class="edge">
 <title>profile-&gt;profiling/report.html</title>
-<path fill="none" stroke="#000000" d="M472.6519,-71.8314C476.0402,-63.9617 480.0834,-54.5712 483.8369,-45.8533"/>
-<polygon fill="#000000" stroke="#000000" points="487.1614,-46.9822 487.9014,-36.4133 480.732,-44.214 487.1614,-46.9822"/>
+<path fill="none" stroke="#df00e0" d="M472.6519,-71.8314C476.0402,-63.9617 480.0834,-54.5712 483.8369,-45.8533"/>
+<polygon fill="#df00e0" stroke="#df00e0" points="487.1614,-46.9822 487.9014,-36.4133 480.732,-44.214 487.1614,-46.9822"/>
 </g>
 </g>
 </svg>
