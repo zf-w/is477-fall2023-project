@@ -20,6 +20,9 @@
 
 # Regression Results
 
-Mean Squared Error: 0.5412384543695589
-Root Mean Squared Error: 0.7356891017063926
-R-squared: 0.2671574851262719
+Mean Squared Error: 0.541238454369559
+
+Root Mean Squared Error: 0.7356891017063927
+
+R-squared: 0.2671574851262718
+
