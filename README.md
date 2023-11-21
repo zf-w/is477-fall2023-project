@@ -11,8 +11,8 @@ IS477-Fall2023 final project repository.
 
 ## Contributions:
 
-- Jacquelin: Complete Step 6, 7, 8, 10, 11, 12, 14(a,b,f,g), 15, 16, 17, and 18
-- Zhifeng: Complete Step 1, 2, 3, 4, 5, 9, 13, 14(c,d,e), profreed, and Step 19 (submission)
+- Jacquelin: Complete Step 6, 7, 8, 10, 14(a,b,f), 15, 16, 17, and 18
+- Zhifeng: Complete Step 1, 2, 3, 4, 5, 9, 11, 12 13, 14(c,d,e,g), profreed, and Step 19 (submission)
 
 ## Analysis:
 
