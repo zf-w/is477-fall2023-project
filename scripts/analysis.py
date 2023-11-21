@@ -26,7 +26,8 @@ features = [
     'density',
     'pH',
     'sulphates',
-    'alcohol'
+    'alcohol',
+    'is red or white wine'
 ]
 
 # create numpy arrays
@@ -75,16 +76,51 @@ ax.set_ylabel("Predicted")
 ax.grid(True, linestyle='--', color='lightgrey')
 ax.axline((0, 0), slope=1, color="black")
 
-# shot plot
-plt.show()
-
 output_directory = results_dir
-output_file = 'model_accuracy.txt'
+
+# save plot
 plot_file = 'plot.png'
+plt.savefig(os.path.join(output_directory, plot_file))
+
+# summary statistics utility function
+
+def df_to_string(df):
+    col_names = df.columns
+    def cal_col_width(col_values: pd.core.series, col_name: str):
+        max_val = len(col_name)
+        for values in col_values.values:
+            curr_len = len(str(values))
+            if max_val < curr_len:
+                max_val = curr_len
+        return max_val
+    col_widths = np.zeros(len(col_names), dtype=int)
+
+    index_width = cal_col_width(df.index, 'Index')
+    index_template = "| {:<" + str(index_width) + "} |"
+    values_template = ""
+    for i, col_name in enumerate(col_names):
+        col_widths[i] = cal_col_width(df[col_name], col_name)
+        values_template += " {:>" + str(col_widths[i]) + "} |"
+
+    def row_to_str(values, index):
+        return index_template.format(index) + values_template.format(*values) + '\n'
+    
+    
+    str_ans = ""
+    str_ans += row_to_str(col_names, 'Index')
+    str_ans += row_to_str(['-' * w for w in col_widths], '-' * index_width)
+    for i in range(len(df)):
+        str_ans += row_to_str(df.iloc[i].values, df.index[i])
+    return str_ans
+
+
+# simple regression result
+output_file = 'summary_stats_and_regression_result.md'
 
 with open(os.path.join(output_directory, output_file), 'w') as file:
-    file.write(f'Mean Squared Error: {mse}\n')
-    file.write(f'Root Mean Squared Error: {rmse}\n')
-    file.write(f'R-squared: {r2}\n')
-    
-plt.savefig(os.path.join(output_directory, plot_file))
+    file.write('# Summary Statistics\n\n')
+    file.write(df_to_string(df.describe().T))
+    file.write('\n\n# Regression Results\n\n')
+    file.write(f'Mean Squared Error: {mse}\n\n')
+    file.write(f'Root Mean Squared Error: {rmse}\n\n')
+    file.write(f'R-squared: {r2}\n\n')

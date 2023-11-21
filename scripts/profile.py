@@ -2,16 +2,14 @@ import os
 import pandas as pd
 from ydata_profiling import ProfileReport
 
-df_red = pd.read_csv('data/winequality-red.csv', sep=';')
-df_wht =  pd.read_csv('data/winequality-white.csv', sep=';')
+wine_quality_path = 'data/winequality.csv'
 
-df = pd.concat([df_red, df_wht])
-
-if os.path.exists('data/winequality.csv'):
-    os.remove('data/winequality.csv')
-df.to_csv('data/winequality.csv')
+df = pd.read_csv(wine_quality_path)
 
 profile = ProfileReport(df, title="Profiling Report")
-if os.path.exists('profiling/report.html'):
-    os.remove('profiling/report.html')
-    profile.to_file("profiling/report.html")
+profile_path = 'profiling/report.html'
+
+if os.path.exists(profile_path):
+    os.remove(profile_path)
+
+profile.to_file(profile_path)

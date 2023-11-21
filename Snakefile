@@ -1,24 +1,22 @@
-rule step1:
+rule prepare:
   output:
-    "./data/wine+quality.zip",
-    "./data/winequality-red.csv",
-    "./data/winequality-white.csv",
-    "./data/winequality.names",
+    "data/winequality.csv"
   shell:
-    "python ./scripts/prepare_data.py"
+    "python scripts/prepare_data.py"
 
-rule step2:
-  output:
-    "./data/winequality.csv"
-    "./profiling/report.html"
-  shell:
-    "python ./scripts/profile.py"
-
-rule step3:
+rule profile:
   input:
-    "./data/winequality.csv"
+    "data/winequality.csv"
   output:
-    "./results/model_accuracy.txt"
-    "./results/plot.png"
+    "profiling/report.html"
   shell:
-    "python ./scripts/analyze.py"
+    "python scripts/profile.py"
+
+rule analyze:
+  input:
+    "data/winequality.csv"
+  output:
+    "results/summary_stats_and_regression_result.md",
+    "results/plot.png"
+  shell:
+    "python scripts/analysis.py"

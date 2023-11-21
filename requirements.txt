@@ -1,7 +1,7 @@
-requests
-pandas
-scikit-learn
 matplotlib
 numpy
+pandas
+requests
+scikit-learn
 snakemake
-os
+ydata-profiling

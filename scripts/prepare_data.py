@@ -43,5 +43,29 @@ with zipfile.ZipFile(wine_zip_file, 'r') as zip_ref:
 os.remove(wine_zip_file)
 print(f'{wine_zip_file} removed successfully.')
 
+# Combine two csv
+import pandas as pd
+
+wine_red = 'data/winequality-red.csv'
+wine_wht = 'data/winequality-white.csv'
+df_red = pd.read_csv(wine_red, sep=';')
+df_wht =  pd.read_csv(wine_wht, sep=';')
+
+df_red['is red or white wine'] = 1
+df_wht['is red or white wine'] = 0
+
+df = pd.concat([df_red, df_wht])
+df.reset_index(drop=True)
+
+wine_quality_path = 'data/winequality.csv'
+
+if os.path.exists(wine_quality_path):
+    os.remove(wine_quality_path)
+
+df.to_csv(wine_quality_path)
+
+os.remove(wine_red)
+os.remove(wine_wht)
+os.remove('data/winequality.names')
 
 
