@@ -11,14 +11,15 @@
             "name": "Wang, Zhifeng"
         }
     ],
-
-    "repository_license": "MIT License",
-    "dataset_license": "Creative Commons Attribution 4.0 International License",
-
+    
     "access_right": "open",
 
+    "license": "CC-BY-4.0",
+    
     "title": "IS 447 Final Project: Exploring Wine Quality through Advanced Data Techniques",
 
+    "description": "In our IS 447 Final Project, we navigated the complexities of Wine Quality data, starting with the consolidation of separate datasets into a singular, structured CSV format. We employed ydata-profiling for in-depth data analysis, focusing on generating critical metrics like Mean Squared Error, Root Mean Squared Error, and R-squared values to gauge our predictive model's accuracy. A key deliverable was our comparative visualization, highlighting the alignment between actual results and model predictions. Our project's backbone was a snakefile-driven workflow, complemented by the use of a virtual environment for software dependency management and Docker for enhanced reproducibility. Comprehensive documentation via Markdown captured every phase, ensuring clarity and replicability in our approach to data management and analysis.", 
+      
     "related_identifiers": [
         {
             "scheme": "doi",
@@ -30,11 +31,13 @@
             "scheme": "url",
             "identifier": "https://github.com/zf-w/is477-fall2023-project",
             "relation": "isSupplementTo",
-            "resource_type": "workflow"
+            "resource_type": "publication-softwaredocumentation"
         }
     ],
 
     "upload_type": "dataset",
+
+    "notes": "The code part of this project (reside in GitHub repository) is licensed under the MIT License. Please refer to the LICENSE file in the repository for more details.",
 
     "keywords": ["Machine Learning", "Data", "Git", "GitHub", "Docker", "DockerHub"]
 }
