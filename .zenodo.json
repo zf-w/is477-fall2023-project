@@ -12,8 +12,10 @@
         }
     ],
 
-    "repository license": "MIT License",
-    "dataset license": "Creative Commons Attribution 4.0 International License",
+    "repository_license": "MIT License",
+    "dataset_license": "Creative Commons Attribution 4.0 International License",
+
+    "access_right": "open",
 
     "title": "IS 447 Final Project: Exploring Wine Quality through Advanced Data Techniques",
 
@@ -31,6 +33,8 @@
             "resource_type": "workflow"
         }
     ],
+
+    "upload_type": "dataset",
 
     "keywords": ["Machine Learning", "Data", "Git", "GitHub", "Docker", "DockerHub"]
 }
