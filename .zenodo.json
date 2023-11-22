@@ -1,0 +1,36 @@
+{
+    "creators": [
+        {
+            "orcid": "0009-0006-0796-6088",
+            "affiliation": "University of Illinois at Urbana Champaign",
+            "name": "Lai, Shanrou"
+        },
+        {
+            "orcid": "0009-0003-6954-2203",
+            "affiliation": "University of Illinois at Urbana Champaign",
+            "name": "Wang, Zhifeng"
+        }
+    ],
+
+    "repository license": "MIT License",
+    "dataset license": "Creative Commons Attribution 4.0 International License",
+
+    "title": "IS 447 Final Project: Exploring Wine Quality through Advanced Data Techniques",
+
+    "related_identifiers": [
+        {
+            "scheme": "doi",
+            "identifier": "10.24432/C56S3T",
+            "relation": "cites",
+            "resource_type": "dataset"
+        },
+        {
+            "scheme": "url",
+            "identifier": "https://github.com/zf-w/is477-fall2023-project",
+            "relation": "isSupplementTo",
+            "resource_type": "workflow"
+        }
+    ],
+
+    "keywords": ["Machine Learning", "Data", "Git", "GitHub", "Docker", "DockerHub"]
+}
