@@ -14,8 +14,8 @@ Our project involves extensive data profiling using ydata-profiling, resulting i
 
 ## Contributions:
 
-- Jacquelin: Complete Step 6, 7, 8, 10, 14(a,b,c,f), 15, 16, 17, and 18
-- Zhifeng: Complete Step 1, 2, 3, 4, 5, 9, 11, 12 13, 14(d,e,g), profreed, and Step 19 (submission)
+- Jacquelin: Complete Step 6, 7, 8, 10, 14(a,b,c,f), 15, 17, and 18
+- Zhifeng: Complete Step 1, 2, 3, 4, 5, 9, 11, 12 13, 14(d,e,g), 16, profreed, and Step 19 (submission)
 
 ## Analysis:
 
