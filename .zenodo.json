@@ -14,7 +14,7 @@
     
     "access_right": "open",
 
-    "license": "CC-BY-4.0",
+    "license": "MIT",
     
     "title": "IS 447 Final Project: Exploring Wine Quality through Advanced Data Techniques",
 
@@ -31,11 +31,11 @@
             "scheme": "url",
             "identifier": "https://github.com/zf-w/is477-fall2023-project",
             "relation": "isSupplementTo",
-            "resource_type": "publication-softwaredocumentation"
+            "resource_type": "software"
         }
     ],
 
-    "upload_type": "dataset",
+    "upload_type": "software",
 
     "notes": "The code part of this project (reside in GitHub repository) is licensed under the MIT License. Please refer to the LICENSE file in the repository for more details.",
 
