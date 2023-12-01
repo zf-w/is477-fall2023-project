@@ -1,4 +1,5 @@
-# Is477 Fall2023 Final Project
+# IS 447 Final Project: Exploring Wine Quality through Advanced Data Techniques
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10232491.svg)](https://doi.org/10.5281/zenodo.10232491)
 
 IS477-Fall2023 final project repository.
 
